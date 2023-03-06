@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  #conversor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="button"] {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #0077be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0063a0;
+  }
+  
+  input[type="button"]:active {
+    transform: translateY(2px);
+  }
+  #dollar-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+
+  a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0063a0;
+    color: white;
+    
+  }
+    

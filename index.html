@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Projeto API</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav><a href="#">CONTATOS</a><a href="#projetos-page">PROJETOS</a><a href="#home">HOME</a></nav>
+    </header>
+<!-- Conteudo -->
+    <main>
+        <section id="home">
+            <section class="home-page">
+                <section class="texto-home">
+                    <h1>Oque é API</h1>
+                    <div class="reta"></div>
+                    <p>API significa "Interface de Programação de Aplicativos" e é um conjunto de regras, protocolos e ferramentas usados para construir software e aplicativos.
+
+                        Em termos simples, uma API é uma maneira pela qual diferentes sistemas de computador podem se comunicar entre si. É como uma ponte entre diferentes aplicativos e sistemas, permitindo que eles compartilhem informações e funcionem juntos de maneira harmoniosa.
+                        
+                        As APIs podem ser usadas para uma variedade de finalidades, como enviar e receber dados, realizar transações, buscar informações de um banco de dados, acessar recursos da Web, entre outras. Muitas empresas e organizações disponibilizam APIs públicas para que desenvolvedores possam criar novos aplicativos usando seus dados e funcionalidades.</p><br><br>
+                    
+                    <a href="#projetos-page">PROJETOS</a>
+                </section>
+                
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="imagens/bowser.png" alt="Slide 1">
+                    </div>
+                    <div class="slide ">
+                        <img src="imagens/subzero.png" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="imagens/Sonico.png" alt="Slide 3">
+                    </div>
+
+            </section>
+
+
+        </section>
+
+        <!-- API INTERNA -->
+        <section id="projetos">
+            <section id="projetos-page">
+
+
+
+                <h2>API LOCAL</h2>
+
+                <div id="internas">
+
+                    <div class="mario">
+                        <a href="#mario"><button onclick="mario ()">
+                                <img src="imagens/mario.jpg" alt="" height="160">
+                                <p>MARIO</p>
+                            </button></a>
+
+                    </div>
+
+                    <div class="starWars">
+
+                        <a href="#starWars"><button onclick="starWars ()">
+                                <img src="imagens/dart.jpg" alt="" height="160" width="140">
+                                <p>Star Wars</p>
+                            </button></a>
+                    </div>
+
+                    <div class="mortalKombat">
+                        <a href="#mortalKombat"><button onclick="mortalKombat ()">
+                                <img src="imagens/scorpion.jpg" alt="" height="160" width="140">
+                                <p>Mortal Kombat</p>
+                            </button></a>
+                    </div>
+                    <div class="hungria"><a href="FAKE2.html"><button><img src="imagens/hungria.jfif" alt=""
+                                    height="160 " width="140">
+                                <p>Albuns de música</p>
+                            </button> </a></div>
+
+                </div>
+
+                <!-- API EXTERNA -->
+                <h2 class="externa-h2">API EXTERNA</h2>
+
+                <section id="externas">
+
+                    <div class="tempo"><a href="tempo.html"><button><img src="imagens/sol.png" alt=""
+                        height="160 " width="140"><p>Consultar Temperatura</p>
+                        
+                </button> </a></div>
+
+                    <div class="dolar"><a href="dolar.html"><button><img src="imagens/Dolar.png" alt=""
+                        height="160 " width="140"><p>Conversor de BRL para USD</p>
+                        
+                </button> </a></div>
+
+                    <div class="cep"><a href="cep.html"><button><img src="imagens/CEP-PONTO.png" alt=""
+                        height="160 " width="140"><p>Consultar CEP</p>
+                        
+                </button> </a></div>
+
+                </section>
+
+                <!-- <img src="imagens/mario-head.png" alt=""> -->
+
+            </section>
+
+        </section>
+
+
+        <section id="mario">
+            
+            <div class="marioBros"> 
+                
+                <img src=""  alt="" id="imagem-mario"  >
+               <img src="" id="star" alt="">
+
+                    <div id="result_1"></div>
+                </div>
+                
+            </div>
+         
+           
+
+        </section>
+
+        <section id="starWars">
+            <div class="mando">
+                <img src="" alt="" id="imagem-star" height="300">
+       
+            <div id="result_2"></div>
+            </div>
+            
+
+        </section>
+
+        <section id="mortalKombat">
+            <div class="subzero"> 
+                
+                <video autoplay muted loop width="1330">
+                    <source src="media/BackgroundMK.mp4" type="video/mp4">
+                </video>
+                
+                <img src="" alt="" id="imagem-mk" >
+                <img src="" alt="" id="mortal" >
+           
+                <div id="result_3"></div></div>
+           
+
+        </section>
+
+        <!-- Rodape -->
+        <footer>
+            <h2>No copyright</h2>
+        </footer>
+
+
+
+    </main>
+
+
+
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>

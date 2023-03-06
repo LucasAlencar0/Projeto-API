@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orangered;
+    background: url(../imagens/blurry-gradient-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+legend {
+    margin-bottom: 35px;
+    font-size: 25px;
+    text-align: center;
+}
+
+label, input {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input {
+    outline: none;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    text-align: left;
+}
+
+a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d31a52;
+    color: white;
+    
+}
+

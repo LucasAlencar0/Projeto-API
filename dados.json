@@ -1,0 +1,25 @@
+{
+  "rock": {
+    "name": "Nirvana",
+    "album": "Unplugeed In New York",
+    "style": "Rock",
+    "price": "R$ 29,90",
+    "imagem": "<img src='imagens/acustico.jpg' width='200px'>"
+  },
+
+  "sertanejo": {
+    "name": "Gusttavo Lima",
+    "album": "Buteco in Boston",
+    "style": "Sertanejo",
+    "price": "R$ 29,90",
+    "imagem": "<img src='imagens/buteco.webp' width='200px'>"
+  },
+
+  "hiphop": {
+    "name": "Hungria hip-hop",
+    "album": "Meu Carona",
+    "style": "Rap",
+    "price": "R$ 29,90",
+    "imagem": "<img src='imagens/hungria.jfif' width='200px'>"
+  }
+}

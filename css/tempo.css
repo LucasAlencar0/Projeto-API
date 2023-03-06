@@ -1,0 +1,84 @@
+body {
+  background: url(../imagens/blurry-gradient-haikei\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .conteiner {
+    
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #result {
+    color: white;
+  }
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #02d7f3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  button:hover {
+    background-color: #02b7cf;
+    transform: scale(1.05);
+
+  }
+  
+  #resultado {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    
+  }
+
+  
+  #image-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: none;
+   
+    
+  }
+ 
+
+  a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #0063a0;
+    color: white;
+    
+    
+  }
+ 
+  
